@@ -1,0 +1,10 @@
+mkdir 423136
+mkdir 423136/new
+cd 423136/new
+cal
+ls ..
+who -q
+
+
+
+
