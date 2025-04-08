@@ -1,5 +1,0 @@
-awk '$2 == "ERROR" { print $1, $4 }' log.txt
-awk 'NR>1 {math+=$2; sci+=$3; eng+=$4; count++} END {print "Math Avg:", math/count; print "Science Avg:", sci/count; print "English Avg:", eng/count}' FS="\t" marks.csv
-awk '{count[$1]++} END {for (ip in count) print ip, count[ip]}' server.log
-sed -E 's/^(\S+)(.*)(\S+)$/\3\2\1/' input.txt
-sed -E 's/\b(\w+)( \1\b)+/\1/g' input.txt
