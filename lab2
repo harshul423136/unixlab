@@ -1,6 +1,0 @@
-ls a*
-ls *.txt
-ls ????? 
-ls [b-e]*
-ls ?[0-9]*.log
-
