@@ -4,10 +4,10 @@
 mkdir new_directory
 
 # 2. Creating a subdirectory within a directory
-mkdir 423142/UNIX
+mkdir 423136/UNIX
 
 # 3. Changing the current directory to a subdirectory
-cd 423142/UNIX
+cd 423136/UNIX
 
 # 4. Displaying the calendar for the current month
 cal
